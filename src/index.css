@@ -3,12 +3,26 @@ html, body {
     color: white;
     font-family: Helvetica, Arial , sans-serif;
     font-size: 1.3rem;
-    padding: 70px;
+    padding: 5%;
+    text-align: center;
 }
 
 
 button {
+
+    border: none;
     font-size: 1.3rem;
-    margin-right: 10px;
-    padding: 10px;
+    margin-right: 2%;
+    padding: 2%;
+    cursor:pointer; cursor: hand;
+    border-radius:0.5em;
+
+}
+
+button:hover {
+	background-color:#a0bec3;
+}
+button:active {
+	position:relative;
+	top:1px;
 }
